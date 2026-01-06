@@ -1,6 +1,6 @@
-const status = 'aprovado';
+const statusPagamento = 'aprovado';
 
-switch (status) {
+switch (statusPagamento.toLowerCase()) {
     case 'pendente':
         console.log('Pagamento pendente');
         break;
